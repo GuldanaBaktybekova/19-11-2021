@@ -83,6 +83,11 @@ img {
 
 
 .green {
-  background-color: rgb(19, 221, 19);
+  background-color: rgb(58, 185, 58);
   color: white;
+}
+button {
+  background-color: rgb(32, 151, 32);
+  border-radius: 10px;
+  padding: 3px;
 }
