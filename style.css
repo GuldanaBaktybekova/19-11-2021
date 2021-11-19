@@ -104,3 +104,6 @@ button {
 button+button {
   margin-left: -4px;
 }
+.border {
+  border: 1px solid gray;
+}
