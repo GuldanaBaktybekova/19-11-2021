@@ -6,27 +6,25 @@ body {
   /* внутри width отступы */
   /* *-это все элементы */
 }
-.container  {
+.container {
   width: 900px;
   margin: 0 auto;
 }
 .row {
   display: flex;
-  margin: 0 -.5rem;
+  margin: 0 -0.5rem;
 }
 [class^="column"] {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 .column {
-  flex: 1 0 0 ;
- 
+  flex: 1 0 0;
 }
 .column-auto {
   flex: 0 0 auto;
 }
-.column-1{
+.column-1 {
   flex: 0 0 8.333333%;
-  
 }
 .column-2 {
   flex: 0 0 16.66666667%;
@@ -82,28 +80,24 @@ img {
   margin-left: 100px;
 } */
 
+
+
 .thumbnail {
-  background-color: rgb(63, 58, 58);
+  background-color: rgb(58, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   height: 100px;
- display: flex;
- justify-content: center;
-  align-items: center;
-  
 
   
 }
-p {
-  padding: 10px;
+.column {
+  flex: 1 0 0;
 }
-button {
-  border: 1px solid black;
-  background-color: white;
 
+span {
+  flex-grow: 1;
+  text-align: right;
 }
-button+button {
-  margin-left: -4px;
-}
-.border {
-  border: 1px solid gray;
-}
+
