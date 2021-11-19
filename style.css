@@ -82,34 +82,7 @@ img {
 
 
 
-.thumbnail {
-  background-color: rgb(58, 54, 54);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.green {
+  background-color: rgb(19, 221, 19);
   color: white;
-  height: 100px;
-
-  
 }
-.column {
-  flex: 1 0 0;
-}
-.card-action {
-  display: flex;
-}
-span {
-  flex-grow: 1;
-  text-align: right;
-}
-.card-content {
-  padding: 10px;
-}
-button {
-  background-color: white;
-  border: 1px solid gray;
-}
-.card {
-  border: 1px solid gray;
-}
-
