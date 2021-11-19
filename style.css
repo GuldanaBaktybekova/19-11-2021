@@ -72,5 +72,12 @@ button {
   background-color: rgb(63, 58, 58);
   border-radius: 5px;
   padding: 5px;
+  margin-left: 100px;
+  
 }
-
+h2 {
+  text-align: center;
+}
+img {
+  margin-left: 100px;
+}
