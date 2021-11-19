@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  /* внутри width отступы */
+  /* *-это все элементы */
+}
+.container  {
+  width: 900px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  gap: .5rem;
+}
+.column {
+  flex: 1 0 0 ;
+  
+  padding: .5rem;
+}
+.column-auto {
+  flex: 0 0 auto;
+}
+.column-1{
+  flex: 0 0 8.333333%;
+  height: 500px;
+}
+.column-2 {
+  flex: 0 0 16.66666667%;
+}
+.column-3 {
+  flex: 0 0 25%;
+}
+.column-4 {
+  flex: 0 0 33.333333%;
+}
+.column-5 {
+  flex: 0 0 41.66666667%;
+}
+.column-6 {
+  flex: 0 0 50%;
+}
+.column-7 {
+  flex: 0 058.22222%;
+}
+.column-8 {
+  flex: 0 0 66.66666667%;
+}
+.column-9 {
+  flex: 0 0 75%;
+}
+.column-10 {
+  flex: 0 0 83.111111%;
+}
+.column-11 {
+  flex: 0 0 91.66666667%;
+}
+.column-12 {
+  flex: 0 0 100%;
+}
