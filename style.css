@@ -12,19 +12,21 @@ body {
 }
 .row {
   display: flex;
-  gap: .5rem;
+  margin: 0 -.5rem;
+}
+[class^="column"] {
+  padding: 0 .5rem;
 }
 .column {
   flex: 1 0 0 ;
-  
-  padding: .5rem;
+ 
 }
 .column-auto {
   flex: 0 0 auto;
 }
 .column-1{
   flex: 0 0 8.333333%;
-  height: 500px;
+  
 }
 .column-2 {
   flex: 0 0 16.66666667%;
