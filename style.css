@@ -85,9 +85,16 @@ img {
 .white {
   text-align: center;
   border-radius: 10px;
-  background: #fff;
-  box-shadow: opx 2px 15px rgb(0, 0, 0, 10%);
+  background: white;
+  box-shadow: 0px 2px 15px rgb(0, 0, 0, 10%);
   padding: 40px 30px;
   width: 100%;
+
+}
+.content {
+  padding: 30px;
+  background: #009970;
+  border-radius: 5px;
+  color: white;
 }
 
