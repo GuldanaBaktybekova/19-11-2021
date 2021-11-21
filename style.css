@@ -82,21 +82,12 @@ img {
 
 
 
-.green {
-  background-color: rgb(58, 185, 58);
-  color: white;
-  padding: 10px;
-  
-}
-button {
-  background-color: rgb(32, 151, 32);
-  border-radius: 10px;
-  padding: 3px;
-}
 .white {
-  background-color: white;
-}
-.white h2 {
-  
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: opx 2px 15px rgb(0, 0, 0, 10%);
+  padding: 40px 30px;
+  width: 100%;
 }
 
